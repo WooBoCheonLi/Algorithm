@@ -11,7 +11,7 @@ for _ in range(T):
     array = list(map(int, input().split())) # 참가자 속도 리스트
     fast = max(array[:n - 1]) # 가장 빠른 참가자 속도
     if fast < array[-1]: # 가장 빠른 참가자 보다 자신의 속도가 빠른 경우
-        print("0") 
+        print(0) 
     else:
         s = x / fast # 가장 빠른 참가자가 도착 하는 데 걸리는 시간
         start = 0
